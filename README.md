@@ -1,5 +1,5 @@
 # arduino-rfid
-This is a door loock using arduino mega, RFID-RC522 and a servo motor. Code is inclueded.
+This is a door loock using arduino mega, RFID-RC522 and a servo motor. Code is inclueded, file rfid_sensor.
 
 Here is a video: https://youtu.be/a2WvPmyuhfg
 
