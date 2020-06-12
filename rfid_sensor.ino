@@ -34,8 +34,8 @@ void loop(){
       mfrc522.PICC_HaltA();
     }
 
-    if(mfrc522.uid.uidByte[0] == 186){
-      if(mfrc522.uid.uidByte[1] == 0) {
+    if(mfrc522.uid.uidByte[0] == 186){    //these numbers only work with my cards, these are the UID                                     
+      if(mfrc522.uid.uidByte[1] == 0) {   //you have to write a program to get them
         if(mfrc522.uid.uidByte[2] == 207) {
           if(mfrc522.uid.uidByte[3] == 129) {
             digitalWrite(red, HIGH);
@@ -46,7 +46,7 @@ void loop(){
         }
       }
     } 
-    if(mfrc522.uid.uidByte[0] == 185) {
+    if(mfrc522.uid.uidByte[0] == 185) {     //these numbers only work with my cards, these are the UID
       if(mfrc522.uid.uidByte[1] == 111) {
         if(mfrc522.uid.uidByte[2] == 228) {
           if(mfrc522.uid.uidByte[3] == 178){
