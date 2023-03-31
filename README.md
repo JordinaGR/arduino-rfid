@@ -14,8 +14,4 @@ When you use the white card the green light turns on, the servo motor moves and 
 
 The button does exacly the same as the white card but from the inside.
 
-The explanation file are pictures and the pin numbers of each cable, an explanation of how to connect everything.
-
-Any questions I'll be glad to answer them.
-
-Thanks!
+The explanation file are pictures and the pin numbers of each cable.
